@@ -61,7 +61,7 @@ export const SERVICES: ServiceItem[] = [
       'Energy assessment'
     ],
     iconName: 'Sun',
-    image: '/src/data/jaytechsoft1.webp'
+    image: '/public/jaytechsoft1.webp'
   },
   {
     id: 'electrical-services',
@@ -78,20 +78,20 @@ export const SERVICES: ServiceItem[] = [
     iconName: 'Wrench',
     image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80'
   },
-  {
-    id: 'ict-solutions',
-    title: 'Technology & ICT Solutions',
-    category: 'tech',
-    description: 'Practical technology solutions that help businesses and organizations improve their digital operations.',
-    features: [
-      'ICT solutions',
-      'Computer/network support',
-      'Technology consulting',
-      'Digital infrastructure'
-    ],
-    iconName: 'Laptop',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80'
-  },
+  // {
+  //   id: 'ict-solutions',
+  //   title: 'Technology & ICT Solutions',
+  //   category: 'tech',
+  //   description: 'Practical technology solutions that help businesses and organizations improve their digital operations.',
+  //   features: [
+  //     'ICT solutions',
+  //     'Computer/network support',
+  //     'Technology consulting',
+  //     'Digital infrastructure'
+  //   ],
+  //   iconName: 'Laptop',
+  //   image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80'
+  // },
   {
     id: 'network-solutions',
     title: 'Network Solutions',
@@ -121,20 +121,20 @@ export const SERVICES: ServiceItem[] = [
     iconName: 'Camera',
     image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80'
   },
-  {
-    id: 'renewable-energy',
-    title: 'Renewable Energy Solutions',
-    category: 'renewable',
-    description: 'Clean and sustainable energy solutions designed to reduce dependence on conventional power sources.',
-    features: [
-      'Clean energy assessments',
-      'Hybrid power architecture',
-      'Sustainable backup integration',
-      'Energy efficiency planning'
-    ],
-    iconName: 'Leaf',
-    image: '/src/data/jaytechsoft4.webp'
-  },
+  // {
+  //   id: 'renewable-energy',
+  //   title: 'Renewable Energy Solutions',
+  //   category: 'renewable',
+  //   description: 'Clean and sustainable energy solutions designed to reduce dependence on conventional power sources.',
+  //   features: [
+  //     'Clean energy assessments',
+  //     'Hybrid power architecture',
+  //     'Sustainable backup integration',
+  //     'Energy efficiency planning'
+  //   ],
+  //   iconName: 'Leaf',
+  //   image: '/public/jaytechsoft4.webp'
+  // },
 ];
 
 export const SOLAR_SPECIALTIES = [
@@ -226,8 +226,17 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     category: 'Solar Installation',
     description: 'Professional solar system installation and setup.',
     scope: ['Rooftop solar PV deployment', 'Pure sine wave inverter setup', 'Battery backup integration', 'Protection & isolator units'],
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=900&q=80',
+    image: '/public/jaytechsoft6.webp',
     locationPlaceholder: 'Residential / Commercial Facility, Jos'
+  },
+  {
+    id: 'proj-5',
+    title: 'Inverter & Battery Backup Configuration',
+    category: 'Solar Installation',
+    description: 'Dedicated energy storage and automatic changeover system.',
+    scope: ['Hybrid solar inverter', 'Deep-cycle energy storage bank', 'Automatic transfer switch (ATS)', 'Battery monitoring'],
+    image: '/public/jaytechsoft4.webp',
+    locationPlaceholder: 'Private Estate / Business Unit, Jos'
   },
   {
     id: 'proj-2',
@@ -235,7 +244,7 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     category: 'Electrical Installation',
     description: 'Professional electrical installation and distribution service.',
     scope: ['Conduit & trunking wiring', 'Distribution board installation', 'Surge & earth fault safety', 'Phase load balancing'],
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80',
+    image: '/public/jaytechsoftwork.webp',
     locationPlaceholder: 'Commercial Building, Plateau State'
   },
   {
@@ -255,15 +264,6 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     scope: ['Cat6 structured cabling', 'Server rack & patch panel termination', 'Managed switch & access point routing', 'Wi-Fi mesh deployment'],
     image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=900&q=80',
     locationPlaceholder: 'Corporate Office Setup, Plateau State'
-  },
-  {
-    id: 'proj-5',
-    title: 'Inverter & Battery Backup Configuration',
-    category: 'Solar Installation',
-    description: 'Dedicated energy storage and automatic changeover system.',
-    scope: ['Hybrid solar inverter', 'Deep-cycle energy storage bank', 'Automatic transfer switch (ATS)', 'Battery monitoring'],
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=900&q=80',
-    locationPlaceholder: 'Private Estate / Business Unit, Jos'
   },
   {
     id: 'proj-6',

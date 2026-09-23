@@ -45,10 +45,10 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
 
         {/* Note for Company Owner / Reviewer */}
         <div className="mb-10 max-w-3xl mx-auto p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-sm text-slate-600 flex items-start gap-3">
-          <Info className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-          <p>
+          {/* <Info className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" /> */}
+          {/* <p>
             <strong className="text-slate-900">Note for Demo Presentation:</strong> The project cards below represent core solution capabilities. In accordance with strict data integrity standards, no client names or unconfirmed statistics have been simulated. Actual site photos, client names, and project capacities can be seamlessly loaded by the company owner.
-          </p>
+          </p> */}
         </div>
 
         {/* Category Filter Tabs */}
