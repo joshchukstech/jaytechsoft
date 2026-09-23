@@ -61,7 +61,7 @@ export const SERVICES: ServiceItem[] = [
       'Energy assessment'
     ],
     iconName: 'Sun',
-    image: '/public/jaytechsoft1.webp'
+    image: '/jaytechsoft1.webp'
   },
   {
     id: 'electrical-services',
@@ -133,7 +133,7 @@ export const SERVICES: ServiceItem[] = [
   //     'Energy efficiency planning'
   //   ],
   //   iconName: 'Leaf',
-  //   image: '/public/jaytechsoft4.webp'
+  //   image: '/jaytechsoft4.webp'
   // },
 ];
 
@@ -226,7 +226,7 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     category: 'Solar Installation',
     description: 'Professional solar system installation and setup.',
     scope: ['Rooftop solar PV deployment', 'Pure sine wave inverter setup', 'Battery backup integration', 'Protection & isolator units'],
-    image: '/public/jaytechsoft6.webp',
+    image: '/jaytechsoft6.webp',
     locationPlaceholder: 'Residential / Commercial Facility, Jos'
   },
   {
@@ -235,7 +235,7 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     category: 'Solar Installation',
     description: 'Dedicated energy storage and automatic changeover system.',
     scope: ['Hybrid solar inverter', 'Deep-cycle energy storage bank', 'Automatic transfer switch (ATS)', 'Battery monitoring'],
-    image: '/public/jaytechsoft4.webp',
+    image: '/jaytechsoft4.webp',
     locationPlaceholder: 'Private Estate / Business Unit, Jos'
   },
   {
@@ -244,7 +244,7 @@ export const PROJECT_PLACEHOLDERS: ProjectItem[] = [
     category: 'Electrical Installation',
     description: 'Professional electrical installation and distribution service.',
     scope: ['Conduit & trunking wiring', 'Distribution board installation', 'Surge & earth fault safety', 'Phase load balancing'],
-    image: '/public/jaytechsoftwork.webp',
+    image: '/jaytechsoftwork.webp',
     locationPlaceholder: 'Commercial Building, Plateau State'
   },
   {

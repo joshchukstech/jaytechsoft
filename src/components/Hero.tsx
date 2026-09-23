@@ -121,7 +121,7 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Image Frame */}
               <div className="relative h-64 sm:h-72 w-full rounded-xl overflow-hidden mb-5">
                 <img
-                  src="/public/jaytechsoft logo.webp"
+                  src="/jaytechsoft logo.webp"
                   alt="High Efficiency Solar Panels Under Direct Sun"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
