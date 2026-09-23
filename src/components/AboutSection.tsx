@@ -30,7 +30,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onLearnMoreServices 
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200/80 bg-white">
               <img
-                src="/public/jaytechsoft3.webp"
+                src="/jaytechsoft3.webp"
                 alt="Technical and Solar Engineering Inspection"
                 className="w-full h-80 sm:h-96 object-cover object-center"
                 referrerPolicy="no-referrer"
